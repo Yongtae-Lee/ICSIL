@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170" width="300" height="170" role="img" aria-label="Three researchers joining the laboratory">
+  <title>Three new researchers</title>
+  <g fill="#0e9c93">
+    <circle cx="66" cy="66" r="25"/>
+    <path d="M26 148 v-6 a40 40 0 0 1 80 0 v6 Z"/>
+  </g>
+  <g fill="#1b64a8">
+    <circle cx="150" cy="58" r="29"/>
+    <path d="M104 148 v-8 a46 46 0 0 1 92 0 v8 Z"/>
+  </g>
+  <g fill="#0e9c93">
+    <circle cx="234" cy="66" r="25"/>
+    <path d="M194 148 v-6 a40 40 0 0 1 80 0 v6 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — ICSIL</title>
+<meta name="description" content="ICSIL at Kongju National University designs low-power CMOS analog front-ends for sensor interfaces.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 300 300" aria-hidden="true">
+        <g fill="#1b64a8">
+          <rect x="76" y="24" width="14" height="15" rx="2"/><rect x="102" y="24" width="14" height="15" rx="2"/>
+          <rect x="128" y="24" width="14" height="15" rx="2"/><rect x="154" y="24" width="14" height="15" rx="2"/>
+          <rect x="180" y="24" width="14" height="15" rx="2"/><rect x="206" y="24" width="14" height="15" rx="2"/>
+          <rect x="76" y="261" width="14" height="15" rx="2"/><rect x="102" y="261" width="14" height="15" rx="2"/>
+          <rect x="128" y="261" width="14" height="15" rx="2"/><rect x="154" y="261" width="14" height="15" rx="2"/>
+          <rect x="180" y="261" width="14" height="15" rx="2"/><rect x="206" y="261" width="14" height="15" rx="2"/>
+          <rect x="24" y="76" width="15" height="14" rx="2"/><rect x="24" y="102" width="15" height="14" rx="2"/>
+          <rect x="24" y="128" width="15" height="14" rx="2"/><rect x="24" y="154" width="15" height="14" rx="2"/>
+          <rect x="24" y="180" width="15" height="14" rx="2"/><rect x="24" y="206" width="15" height="14" rx="2"/>
+          <rect x="261" y="76" width="15" height="14" rx="2"/><rect x="261" y="102" width="15" height="14" rx="2"/>
+          <rect x="261" y="128" width="15" height="14" rx="2"/><rect x="261" y="154" width="15" height="14" rx="2"/>
+          <rect x="261" y="180" width="15" height="14" rx="2"/><rect x="261" y="206" width="15" height="14" rx="2"/>
+        </g>
+        <path d="M64 40 H236 L260 64 V236 L236 260 H64 L40 236 V64 Z" fill="#1b64a8"/>
+        <path d="M60 150 q9 -17 18 0 t18 0" fill="none" stroke="#9defe4" stroke-width="5" stroke-linecap="round"/>
+        <line x1="100" y1="150" x2="134" y2="150" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+        <line x1="134" y1="116" x2="134" y2="184" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+        <line x1="148" y1="116" x2="148" y2="184" stroke="#9defe4" stroke-width="10" stroke-linecap="round"/>
+        <path d="M148 130 H188 V96" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M148 170 H188 V206" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M196 96 h13 v-18 h14 v18 h13" fill="none" stroke="#ffbe52" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span><b>Integrated Circuits for Sensor Interfaces LAB</b><i>Kongju National University</i></span>
+    </a>
+    <ul class="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="research.html">Research</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="pagehead">
+  <div class="wrap">
+    <div class="crumb">Research</div>
+    <h1>Research</h1>
+  </div>
+</header>
+<section id="research">
+  <div class="wrap">
+    <p class="secsub">
+      Every sensing system eventually meets the same bottleneck — the interface circuit that turns
+      a physical quantity into a number. We work on that interface, across three application domains
+      that share one toolbox of precision techniques.
+    </p>
+
+    <div class="grid">
+
+      <div class="card c1">
+        <div class="top"></div>
+        <div class="body">
+          <span class="tag">Thrust 01</span>
+          <h3>Battery EIS Analog Front-Ends</h3>
+          <p>
+            Electrochemical impedance spectroscopy reveals the internal state of a battery, but
+            measuring it on-board demands milli-hertz stability, differential sensing across a
+            high common-mode stack voltage, and sub-milliwatt power. We study drift compensation,
+            excitation-signal synthesis, and the architectures that make integrated EIS practical
+            for battery management systems.
+          </p>
+        </div>
+        <figure>
+          <svg viewBox="0 0 300 190" role="img" aria-label="Nyquist plot of a battery impedance showing a charge-transfer semicircle followed by a 45 degree Warburg tail">
+            <g stroke="#dde5ec" stroke-width="1">
+              <line x1="46" y1="30" x2="288" y2="30"/><line x1="46" y1="66" x2="288" y2="66"/>
+              <line x1="46" y1="102" x2="288" y2="102"/><line x1="46" y1="138" x2="288" y2="138"/>
+              <line x1="106" y1="24" x2="106" y2="150"/><line x1="166" y1="24" x2="166" y2="150"/>
+              <line x1="226" y1="24" x2="226" y2="150"/>
+            </g>
+            <line x1="46" y1="150" x2="290" y2="150" stroke="#8695a4" stroke-width="1.6"/>
+            <line x1="46" y1="150" x2="46" y2="22" stroke="#8695a4" stroke-width="1.6"/>
+            <path d="M64 150 A46 44 0 0 1 156 150" fill="none" stroke="#0e9c93" stroke-width="3.2" stroke-linecap="round"/>
+            <path d="M156 150 L232 74" fill="none" stroke="#1b64a8" stroke-width="3.2" stroke-linecap="round"/>
+            <circle cx="64" cy="150" r="4" fill="#0e9c93"/>
+            <circle cx="110" cy="106" r="3.5" fill="#0e9c93"/>
+            <circle cx="232" cy="74" r="4" fill="#1b64a8"/>
+            <text x="98" y="98" font-size="11" font-weight="700" fill="#0a7c74">charge transfer</text>
+            <text x="188" y="122" font-size="11" font-weight="700" fill="#1b64a8">Warburg</text>
+            <text x="52" y="169" font-size="10.5" fill="#8695a4">R</text>
+            <text x="59" y="172" font-size="8" fill="#8695a4">s</text>
+            <text x="262" y="169" font-size="10.5" fill="#8695a4">Z&#8242;</text>
+            <text x="14" y="30" font-size="10.5" fill="#8695a4">&#8722;Z&#8243;</text>
+            <text x="228" y="44" font-size="10" fill="#8695a4">mHz</text>
+            <text x="52" y="140" font-size="10" fill="#8695a4">kHz</text>
+          </svg>
+          <figcaption>The impedance signature we are trying to capture on-chip &mdash; the mHz end is where the circuit design gets hard.</figcaption>
+        </figure>
+      </div>
+
+      <div class="card c2">
+        <div class="top"></div>
+        <div class="body">
+          <span class="tag">Thrust 02</span>
+          <h3>Resistive Sensor Readout</h3>
+          <p>
+            Resistor-to-digital converters translate a sensing element directly into digital code.
+            By merging the sensor bias network with the first integrator of a continuous-time
+            delta-sigma loop, we pursue high resolution at low energy per conversion — demonstrated
+            on MEMS gas sensors resolving BTEX compounds down to sub-ppb levels.
+          </p>
+        </div>
+        <figure>
+          <img src="img/rdc_layout.png" alt="Die layout of a 300 by 310 micrometre resistor-to-digital converter in 110-nm CMOS">
+          <figcaption>Resistor-to-digital converter, 110-nm CMOS &middot; 300 &times; 310 &mu;m. <span style="color:#aab5c0">&copy; IEEE, JSSC 2023.</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="card c3">
+        <div class="top"></div>
+        <div class="body">
+          <span class="tag">Thrust 03</span>
+          <h3>Precision Temperature Sensing</h3>
+          <p>
+            Frequency-locked-loop resistor-based sensors deliver millikelvin resolution in a few
+            thousand square micrometres, making them well suited to thermal monitoring inside
+            processors and DRAM. Our interest lies in the accuracy limits that remain after a
+            single-point trim, and in energy-efficient frequency-to-digital conversion.
+          </p>
+        </div>
+        <figure>
+          <img src="img/tsensor_die.png" alt="Annotated die micrograph of an 85 by 75 micrometre resistor-based temperature sensor in 65-nm CMOS">
+          <figcaption>Temperature sensor core, 65-nm CMOS &middot; 85 &times; 75 &mu;m. <span style="color:#aab5c0">&copy; IEEE, TCAS-II 2023.</span></figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 ICSIL &mdash; Integrated Circuits for Sensor Interfaces Laboratory</span>
+    <span>E-mail: <a href="mailto:ytlee@kongju.ac.kr">ytlee@kongju.ac.kr</a> &middot; Office: 8공학관 307호, Kongju National University, Cheonan, Korea</span>
+  </div>
+</footer>
+
+</body>
+</html>
