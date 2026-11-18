@@ -237,11 +237,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
 
 .student-portraits {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 190px));
-  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 104px));
+  gap: 12px;
   margin-bottom: 36px;
 }
-.student-portraits figure { margin: 0; }
+.student-portraits figure { margin: 0; text-align: center; }
 .student-portraits img {
   display: block;
   width: 100%;
@@ -252,8 +252,3 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
   border-radius: 8px;
 }
 .student-portraits figcaption { margin-top: 8px; font-weight: 700; }
-.student-award { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin-bottom: 36px; }
-.student-award img { width: min(100%, 270px); height: auto; border-radius: 6px; }
-.student-award div { flex: 1 1 250px; }
-.student-award p { margin: 8px 0; }
-.student-award p span { color: inherit; font-size: inherit; }
